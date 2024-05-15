@@ -33,6 +33,12 @@ numInt===10;
 /* Check if 'on' is found in both python and jargon
 I hope this course is not full of jargon. Check if jargon is in the sentence. */
 
+let searchOnPython = "python";
+let searchOnJargon ="jargon";
+searchOnPython.includes("on");
+searchOnJargon.includes("on");
+
+
 
 //Generate a random number between 0 and 100 inclusively.
 
