@@ -47,18 +47,18 @@ Math.floor(Math.random()*101);
 
 //Generate a random number between 50 and 100 inclusively.
 
-Math.floor(Math.random()*51)+50
+Math.floor(Math.random()*51)+50;
 
 //Generate a random number between 0 and 255 inclusively.
 
-Math.floor(Math.random()*256)
+Math.floor(Math.random()*256);
 
 //Access the 'JavaScript' string characters using a random number.
-let word ="JavaScript"
-word.length-1;
-Math.floor(Math.random()*word.length)
 
-
+let word ="JavaScript";
+let surprise = Math.floor(Math.random()*word.length);
+result = word.chartAt(surprise)
+TAKE IT FROM HERE - ASSOCIATE THE STRING LETTER WITH THE RANDOM NUMBER
 
 /* Use console.log() and escape characters to print the following pattern.
 
