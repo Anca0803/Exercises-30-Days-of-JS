@@ -14,20 +14,14 @@ console.log(newQuote);
 
 //Check if typeof '10' is exactly equal to 10. If not make it exactly equal.
 
-typeof "10"  //check => string
-let num = '10'
-let numInt = Number(num)
-typeof(numInt) ===typeof(10);
+console.log(typeof "10" === typeof 10);
+console.log(typeof Number("10") === typeof 10);
 
 
 //Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
 
-let num = '9.8';
-let numFloat = parseFloat(num);
-parseFloat(num)===10;
-let numInt =parseInt(num)+1;
-numInt===10;
-
+console.log(parseFloat("9.8")===10);
+console.log(Math.round(parseFloat("9.8"))===10);
 
 
 /* Check if 'on' is found in both python and jargon
@@ -69,3 +63,4 @@ pattern ="1 1 1 1 1\n2 1 2 4 8\n3 1 3 9 27\n4 1 4 16 64\n5 1 5 25 125";
 console.log(pattern);
 
 //Use substr to slice out the phrase because because because from the following sentence:'You cannot end a sentence with because because because is a conjunction'
+CONTINUE FROM HERE
