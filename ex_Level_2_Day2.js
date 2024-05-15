@@ -56,9 +56,7 @@ Math.floor(Math.random()*256);
 //Access the 'JavaScript' string characters using a random number.
 
 let word ="JavaScript";
-let surprise = Math.floor(Math.random()*word.length);
-result = word.chartAt(surprise)
-TAKE IT FROM HERE - ASSOCIATE THE STRING LETTER WITH THE RANDOM NUMBER
+word.charAt(Math.floor(Math.random()*word.length));
 
 /* Use console.log() and escape characters to print the following pattern.
 
