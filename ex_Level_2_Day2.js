@@ -21,7 +21,13 @@ typeof(numInt) ===typeof(10);
 
 
 //Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
-TO CONTINUE FROM HERE
+
+let num = '9.8';
+let numFloat = parseFloat(num);
+parseFloat(num)===10;
+let numInt =parseInt(num)+1;
+numInt===10;
+
 
 
 /* Check if 'on' is found in both python and jargon
