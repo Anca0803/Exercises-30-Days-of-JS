@@ -46,10 +46,12 @@ Math.floor(Math.random()*101);
 
 
 //Generate a random number between 50 and 100 inclusively.
+
 Math.floor(Math.random()*51)+50
 
 //Generate a random number between 0 and 255 inclusively.
 
+Math.floor(Math.random()*256)
 
 //Access the 'JavaScript' string characters using a random number.
 
