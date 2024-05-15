@@ -54,6 +54,10 @@ Math.floor(Math.random()*51)+50
 Math.floor(Math.random()*256)
 
 //Access the 'JavaScript' string characters using a random number.
+let word ="JavaScript"
+word.length-1;
+Math.floor(Math.random()*word.length)
+
 
 
 /* Use console.log() and escape characters to print the following pattern.
