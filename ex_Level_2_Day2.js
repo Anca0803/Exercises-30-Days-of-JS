@@ -42,7 +42,8 @@ searchOnJargon.includes("on");
 
 //Generate a random number between 0 and 100 inclusively.
 
-
+let randomNum = Math.floor(Math.random()*101);
+console.log(randomNum);
 
 //Generate a random number between 50 and 100 inclusively.
 
