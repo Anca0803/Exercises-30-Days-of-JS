@@ -77,7 +77,7 @@ lengthPython !== lengthJargon
 
     //  Use the Date object to do the following activities
         What is the year today?
-            const now = new Date();
+            let now = new Date();
             console.log(now.getFullYear());
          
         What is the month today as a number?
@@ -89,6 +89,17 @@ lengthPython !== lengthJargon
            console.log(todayDate);
          
         What is the day today as a number?
+          let now = new Date();
+          console.log(now.getDay());
+         
         What is the hours now?
+          let now = new Date();
+          console.log(now.getHours());
+         
         What is the minutes now?
+          let now = new Date();
+          console.log(now.getMinutes());
+
         Find out the numbers of seconds elapsed from January 1, 1970 to now.
+           let allSeconds = Date.now();
+           console.log(allSeconds);
