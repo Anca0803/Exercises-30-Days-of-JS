@@ -5,8 +5,10 @@ Enter base: 20
 Enter height: 10
 The area of the triangle is 100
 
-
-
+let base = prompt("enter base");
+let height = prompt("enter height");
+let area = 0.5 *Number(base)*Number(height);
+console.log(area);
 
 Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
 
