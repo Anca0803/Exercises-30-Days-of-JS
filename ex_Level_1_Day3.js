@@ -25,7 +25,6 @@ console.log(parseInt('9.8') == 10);
 
   //  Boolean value is either true or false.
         Write three JavaScript statement which provide truthy value.
-
            10 =="10";
            5! = 4;
          4**5 ===1024;
@@ -33,39 +32,47 @@ console.log(parseInt('9.8') == 10);
 
         Write three JavaScript statement which provide falsy value.
            10 ==="10";
-          25%5 === 1;
-           30<80;
+           25%5 === 1;
+           let book
 
 
            
- //  Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
-        4 > 3
-        4 >= 3
-        4 < 3
-        4 <= 3
-        4 == 4
-        4 === 4
-        4 != 4
-        4 !== 4
-        4 != '4'
-        4 == '4'
-        4 === '4'
-        Find the length of python and jargon and make a falsy comparison statement.
+ /*  Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
+        4 > 3  true
+        4 >= 3  true
+        4 < 3  false
+        4 <= 3  false
+        4 == 4  true
+        4 === 4  true
+        4 != 4  false
+        4 !== 4  false
+        4 != '4' false
+        4 == '4' true
+        4 === '4' false
+        
+Find the length of python and jargon and make a falsy comparison statement.  */ 
 
+let lengthPython = "python".length;
+let lengthJargon = "jargon".length;
+lengthPython !== lengthJargon
 
            
- //   Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
-        4 > 3 && 10 < 12
-        4 > 3 && 10 > 12
-        4 > 3 || 10 < 12
-        4 > 3 || 10 > 12
-        !(4 > 3)
-        !(4 < 3)
-        !(false)
-        !(4 > 3 && 10 < 12)
-        !(4 > 3 && 10 > 12)
-        !(4 === '4')
-        There is no 'on' in both dragon and python
+ /*   Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
+        4 > 3 && 10 < 12        true
+        4 > 3 && 10 > 12        false
+        4 > 3 || 10 < 12        true
+        4 > 3 || 10 > 12        true
+        !(4 > 3)                false
+        !(4 < 3)                true
+        !(false)                true
+        !(4 > 3 && 10 < 12)     false
+        !(4 > 3 && 10 > 12)     true
+        !(4 === '4')            true
+        There is no 'on' in both dragon and python  false  */ 
+
+
+
+
 
     //  Use the Date object to do the following activities
         What is the year today?
