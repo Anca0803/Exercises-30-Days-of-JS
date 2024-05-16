@@ -62,12 +62,10 @@ word.charAt(Math.floor(Math.random()*word.length));
 pattern ="1 1 1 1 1\n2 1 2 4 8\n3 1 3 9 27\n4 1 4 16 64\n5 1 5 25 125";
 console.log(pattern);
 
-//Use substr to slice out the phrase because because because from the following sentence:'You cannot end a sentence with because because because is a conjunction' - HERE I NEEDED HELP
+//Use substr to slice out the phrase because because because from the following sentence:'You cannot end a sentence with because because because is a conjunction' -
 
-my code:
 
 let phrase = "'You cannot end a sentence with because because because is a conjunction'";
-
 let firstBecause= phrase.indexOf("because"); 
 let length = "because because because".length;
 console.log(phrase.substr(firstBecause, length));
