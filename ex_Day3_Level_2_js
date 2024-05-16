@@ -17,6 +17,11 @@ Enter side b: 4
 Enter side c: 3
 The perimeter of the triangle is 12
 
+let sideA = prompt("enter side a");
+let sideB = prompt("enter side b");
+let sideC = prompt("enter side c");
+let perimeter = Number(sideA)+Number(sideB)+Number(sideC);
+console.log(perimeter);
 
 
 
