@@ -70,7 +70,10 @@ lengthPython !== lengthJargon
         !(4 === '4')            true
         There is no 'on' in both dragon and python  false  */ 
 
-
+let searchOnDragon = "dragon";
+let searchOnPython ="python";
+let pattern = /on/gi
+console.log(searchOnDragon.match(pattern)) !==console.log(searchOnPython.match(pattern));
 
 
 
