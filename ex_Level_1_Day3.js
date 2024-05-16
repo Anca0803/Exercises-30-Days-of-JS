@@ -68,19 +68,26 @@ lengthPython !== lengthJargon
         !(4 > 3 && 10 < 12)     false
         !(4 > 3 && 10 > 12)     true
         !(4 === '4')            true
-        There is no 'on' in both dragon and python  false  */ 
-
-let searchOnDragon = "dragon";
-let searchOnPython ="python";
-let pattern = /on/gi
-console.log(searchOnDragon.match(pattern)) !==console.log(searchOnPython.match(pattern));
+       
+  There is no 'on' in both dragon and python  false  */ 
+       let pattern = /on/gi
+       console.log("dragon".match(pattern)) !==console.log("python".match(pattern));
 
 
 
     //  Use the Date object to do the following activities
         What is the year today?
+            const now = new Date();
+            console.log(now.getFullYear());
+         
         What is the month today as a number?
+            const month = new Date();
+            console.log(now.getMonth());
+         
         What is the date today?
+          const todayDate = new Date();
+           console.log(todayDate);
+         
         What is the day today as a number?
         What is the hours now?
         What is the minutes now?
