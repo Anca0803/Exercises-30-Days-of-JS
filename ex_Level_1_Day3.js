@@ -1,6 +1,6 @@
 
 
-   //  Declare firstName, lastName, country, city, age, isMarried, year variable and assign value to it and use the typeof operator to check different data types.
+ //  Declare firstName, lastName, country, city, age, isMarried, year variable and assign value to it and use the typeof operator to check different data types.
 let firstName = "John";
 let lastName = "Morris";
 let country ="USA";
@@ -15,23 +15,30 @@ console.log(typeof city);
 console.log(typeof age);
 
 
-   // Check if type of '10' is equal to 10
+// Check if type of '10' is equal to 10
 console.log(typeof "10"==10);
 
 
-
-   //   Check if parseInt('9.8') is equal to 10
+//   Check if parseInt('9.8') is equal to 10
 
 console.log(parseInt('9.8') == 10);
 
-
-    //  Boolean value is either true or false.
+  //  Boolean value is either true or false.
         Write three JavaScript statement which provide truthy value.
+
+           10 =="10";
+           5! = 4;
+         4**5 ===1024;
+          
+
         Write three JavaScript statement which provide falsy value.
+           10 ==="10";
+          25%5 === 1;
+           30<80;
 
 
            
-    //  Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
+ //  Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
         4 > 3
         4 >= 3
         4 < 3
@@ -47,7 +54,7 @@ console.log(parseInt('9.8') == 10);
 
 
            
-   //   Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
+ //   Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
         4 > 3 && 10 < 12
         4 > 3 && 10 > 12
         4 > 3 || 10 < 12
