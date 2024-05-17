@@ -140,7 +140,9 @@ Write a script that prompt the user to enter number of years. Calculate the numb
 Enter number of years you live: 100
 You lived 3153600000 seconds.
 
-
+let age = Number(prompt("enter your age"));
+secondsInAge= age.getSeconds();  RAMAN AICI
+console.log(`You lived ${secondsInAge} seconds.`);
 
 Create a human readable time format using the Date time object
 
