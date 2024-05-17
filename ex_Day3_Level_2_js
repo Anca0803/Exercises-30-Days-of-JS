@@ -26,6 +26,13 @@ console.log(perimeter);
 
 
 Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
+ 
+let length = prompt("enter length");
+let width = prompt("enter width");
+let areaRectangle = Number(length*width);
+console.log(areaRectangle);
+let PerimeterRectangle =(2*(Number(length)+Number(width)));
+console.log(PerimeterRectangle);
 
 
 
