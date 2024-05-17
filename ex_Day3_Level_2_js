@@ -38,7 +38,12 @@ console.log(PerimeterRectangle);
 
 Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
 
-
+let radius = parseFloat(prompt("enter radius"));
+let PI = 3.14;
+let areaCircle=PI*radius*radius;
+console.log(areaCircle);
+let circumference= 2*PI*radius;
+console.log(circumference);
 
 Calculate the slope, x-intercept and y-intercept of y = 2x -2
 
