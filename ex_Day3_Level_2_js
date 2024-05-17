@@ -90,8 +90,14 @@ Compare your first name length and your family name length and you should get th
 let firstName = 'Asabeneh'
 let lastName = 'Yetayeh'
 
+
 Your first name, Asabeneh is longer than your family name, Yetayeh
 
+if(firstName.length > lastName.length){
+  console.log(`Your first name, ${firstName} is longer than your family name, ${firstName}`);
+ }else {
+ console.log(`Your first name, ${firstName} is shoter than your family name, ${firstName}`);
+}
 
 
 Declare two variables myAge and yourAge and assign them initial values and myAge and yourAge.
