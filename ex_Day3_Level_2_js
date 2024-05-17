@@ -51,15 +51,15 @@ I NEED HELP HERE; PLEASE
 
 Slope is m = (y2-y1)/(x2-x1). Find the slope between point (2, 2) and point(6,10)
 
-
+I NEED HELP HERE; PLEASE
 
 Compare the slope of above two questions.
 
-
+I NEED HELP HERE; PLEASE
 
 Calculate the value of y (y = x2 + 6x + 9). Try to use different x values and figure out at what x value y is 0.
 
-
+I NEED HELP HERE; PLEASE
 
 Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
 
@@ -67,8 +67,21 @@ Enter hours: 40
 Enter rate per hour: 28
 Your weekly earning is 1120
 
+let hoursOfWork =parseFloat(prompt("Enter hours of work"));
+let ratePerHour = parseFloat(prompt("Enter rate per hour"));
+earnings = hoursOfWork*ratePerHour;
+console.log(`Your payment is €${earnings}`);
+
+
 
 If the length of your name is greater than 7 say, your name is long else say your name is short.
+
+let name = prompt("What is your name?");
+if(name.length > 7){
+  console.log("your name is long");
+ }else {
+ console.log("your name is short");
+}
 
 
 
