@@ -40,13 +40,14 @@ Get radius using prompt and calculate the area of a circle (area = pi x r x r) a
 
 let radius = parseFloat(prompt("enter radius"));
 let PI = 3.14;
-let areaCircle=PI*radius*radius;
+let areaCircle=PI*radius**2;
 console.log(areaCircle);
 let circumference= 2*PI*radius;
 console.log(circumference);
 
 Calculate the slope, x-intercept and y-intercept of y = 2x -2
 
+I NEED HELP HERE; PLEASE
 
 Slope is m = (y2-y1)/(x2-x1). Find the slope between point (2, 2) and point(6,10)
 
