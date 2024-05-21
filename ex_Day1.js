@@ -15,13 +15,22 @@ DONE
 
 Create datatypes.js file and use the JavaScript typeof operator to check different data types. Check the data type of each variable
 
-
+DONE
 
 Declare four variables without assigning values
 
+let weather
+const dayToday
+var chapter
+let age
 
 
 Declare four variables with assigned values
+
+let weather ="sunny";
+const dayToday = new Date();
+var chapter =1;
+let isHappy = true;
 
 
 
