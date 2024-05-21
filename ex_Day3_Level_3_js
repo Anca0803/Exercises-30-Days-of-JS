@@ -13,7 +13,7 @@ else {
 
 const date = now.getDate()
 
-if (date<10{
+if (date<10){
 "0"+ date;
 }
 else {
@@ -22,7 +22,7 @@ date;
 
 
 const hours = now.getHours();
-if (hours<10{
+if (hours<10){
 "0"+ hours;
 }
 else {
@@ -30,7 +30,7 @@ hours;
 }
 
 const minutes = now.getMinutes();
-if (minutes<10{
+if (minutes<10){
 "0"+ minutes;
 }
 else {
