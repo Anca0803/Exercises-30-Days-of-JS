@@ -36,10 +36,26 @@ let isHappy = true;
 
 Declare variables to store your first name, last name, marital status, country and age in multiple lines
 
-
+const firstName ="Anca";
+console.log(firstName);
+let lastName ="Irimia";
+console.log(lastName);
+let maritalStatus = "not married, in a relationship";
+console.log(maritalStatus);
+let country = "Germany";
+console.log(country);
+let age = 40;
+console.log(age);
 
 Declare variables to store your first name, last name, marital status, country and age in a single line
 
+console.log(firstName, lastName, maritalStatus, country, age);
 
 
 Declare two variables myAge and yourAge and assign them initial values and log to the browser console.
+
+myAge = 40;
+yourAge = 41;
+
+console.log(myAge, yourAge);
+
