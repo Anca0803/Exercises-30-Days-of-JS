@@ -1,4 +1,12 @@
-let firstName="Anca";     //string
-2!==="2";               //boolean FALSE
-let name;             // undefined
-let a = null;         //null
+let firstName="Anca";     
+typeof firstName;         //string
+
+typeof true             //boolean 
+
+typeof name;             // undefined
+let a = null;  
+typeof a                  //object
+
+typeof NaN               //number
+
+typeof {name:'Anca', age:40}  //object
