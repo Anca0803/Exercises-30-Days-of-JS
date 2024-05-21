@@ -37,4 +37,4 @@ else {
 minutes;
 }
 
-
+console.log(`${year}-${month}-${date} ${hours}:${minutes}`);
