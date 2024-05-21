@@ -141,8 +141,7 @@ Enter number of years you live: 100
 You lived 3153600000 seconds.
 
 let age = Number(prompt("enter your age"));
-secondsInAge= age.getSeconds();  RAMAN AICI
-console.log(`You lived ${secondsInAge} seconds.`);
+console.log(`You lived ${age*31536000} seconds.`);
 
 Create a human readable time format using the Date time object
 
