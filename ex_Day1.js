@@ -9,6 +9,7 @@ Write a multiline comment which says, comments can make code readable, easy to r
 /*comments can make code readable, 
 easy to reuse and informative */
 
+
 Create a variable.js file and declare variables and assign string, boolean, undefined and null data types
 
 DONE
