@@ -4,6 +4,7 @@ YYY-MM-DD HH:mm eg. 20120-01-02 07:05
   const now = new Date();
   const year = now.getFullYear();
   const month = now.getMonth()+1;
+
 if (month <10){
     "0"+month;
 }
@@ -37,4 +38,4 @@ else {
 minutes;
 }
 
-console.log(`${year}-${month}-${date} ${hours}:${minutes}`);
+console.log(`${year}-${month}-${date} ${hours}:${minutes}`);  - IT STILL SHOWS MONTH AS 5 instead of 05 - WHY?
