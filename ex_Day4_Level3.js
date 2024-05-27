@@ -38,7 +38,7 @@
         }  
 
     
-Write a program which tells the number of days in a month, now consider leap year.
+// Write a program which tells the number of days in a month, now consider leap year.
 
 let month = prompt("Enter a month:");
 let year = parseInt(prompt("Enter a year:"));
