@@ -25,6 +25,7 @@ December, January or February, the season is Winter.
 March, April or May, the season is Spring
 June, July or August, the season is Summer   */
 
+
 let season = prompt("What is the current month?")
 if(season == "September"||season == "October" ||season == "November" ){
     console.log('the season is Autumn');
@@ -55,3 +56,32 @@ else
 
     What is the day today? FrIDAy
     Friday is a working day.  */
+
+/* DONE WITH CHATGPT HELP  */
+
+function checkDayType(day) {
+    day = day.trim().toLowerCase();
+        
+
+const weekends = ['saturday', 'sunday'];
+const workingDays = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'];
+        
+ if (weekends.includes(day)) {
+    return `${capitalizeFirstLetter(day)} is a weekend.`;
+} else if (workingDays.includes(day)) {
+     return `${capitalizeFirstLetter(day)} is a working day.`;
+} else {
+    return "Invalid day entered.";
+        }
+    }
+    
+function capitalizeFirstLetter(day) {
+    return day.charAt(0).toUpperCase() + day.slice(1);
+    }
+    
+const dayInput = prompt("What is the day today?");
+alert(checkDayType(dayInput));
+
+
+
+
