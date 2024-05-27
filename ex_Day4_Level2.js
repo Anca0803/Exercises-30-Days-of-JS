@@ -57,30 +57,35 @@ else
     What is the day today? FrIDAy
     Friday is a working day.  */
 
-/* DONE WITH CHATGPT HELP  */
+let dayInput = prompt('What day is today ?')
+let day = dayInput.toLowerCase()
 
-function checkDayType(day) {
-    day = day.trim().toLowerCase();
-        
+switch (day) {
+  case 'monday':
+    console.log('Monday is a working day')
+    break
+  case 'tuesday':
+    console.log('Tuesady is a working da')
+    break
+  case 'wednesday':
+    console.log('Wednesday is a working day')
+    break
+  case 'thursday':
+    console.log('Thursday is a working day')
+    break
+  case 'friday':
+    console.log('Friday is a working day')
+    break
+  case 'saturday':
+    console.log('Saturday is a weekend')
+    break
+  case 'sunday':
+    console.log('Sunday is a weekend')
+    break
+  default:
+    console.log('It is not a week day.')
+}
 
-const weekends = ['saturday', 'sunday'];
-const workingDays = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'];
-        
- if (weekends.includes(day)) {
-    return `${capitalizeFirstLetter(day)} is a weekend.`;
-} else if (workingDays.includes(day)) {
-     return `${capitalizeFirstLetter(day)} is a working day.`;
-} else {
-    return "Invalid day entered.";
-        }
-    }
-    
-function capitalizeFirstLetter(day) {
-    return day.charAt(0).toUpperCase() + day.slice(1);
-    }
-    
-const dayInput = prompt("What is the day today?");
-alert(checkDayType(dayInput));
 
 
 
