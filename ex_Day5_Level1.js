@@ -168,3 +168,6 @@ console.log(itCompanies.shift())
 console.log(itCompanies.pop())
 
 // Remove all IT companies
+
+itCompanies =[]
+
