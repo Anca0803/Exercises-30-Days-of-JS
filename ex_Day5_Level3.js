@@ -36,7 +36,21 @@ let MaxAverage = (Math.max(...ages)-average);
 console.log(Math.abs(MinAverage));
 console.log(Math.abs(MaxAverage));
 
-//  Find the middle country(ies) in the countries array
+console.log(countries.slice(0,10));
+
+
 //  Find the middle country(ies) in the countries array
 
+console.log(countries[Math.ceil(countries.length/2)-1]);
+
+
 //  Divide the countries array into two equal arrays if it is even. If countries array is not even , one more country for the first half.
+
+const middleIndex = Math.ceil(countries.length / 2);
+
+const firstHalf = countries.slice(0, middleIndex);
+const secondHalf = countries.slice(middleIndex);
+
+console.log('First Half:', firstHalf);
+console.log('Second Half:', secondHalf);
+
