@@ -4,13 +4,9 @@
 
 let text =
 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+let words = text.replace(/[^\w \ s]/gi, "").split(" ");
 console.log(words)
 console.log(words.length)
-["I", "love", "teaching", "and", "empowering", "people", "I", "teach", "HTML", "CSS", "JS", "React", "Python"]
-
-13
-
-
 
 
 // In the following shopping cart add, remove, edit items
